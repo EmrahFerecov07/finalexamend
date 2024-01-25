@@ -1,0 +1,82 @@
+.sf {
+    display: flex;
+    justify-content: center;
+
+    .phone {
+        padding-top: 150px;
+    }
+
+    .texts {
+        
+        padding-top: 150px;
+
+        h3 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 60px;
+        }
+
+        padding-left: 90px;
+
+        .voice {
+            h3{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p{
+                font-family: 'Times New Roman', Times, serif;
+                color: grey;
+            }
+
+    
+            i {
+                color: purple;
+                font-size: 25px;
+            }
+
+        }
+
+        .mobilephone {
+            i {
+                color: purple;
+                font-size: 25px;
+            }
+            h3{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p{
+                font-family: 'Times New Roman', Times, serif;
+                color: grey;
+            }
+        }
+
+        .wifi {
+            i {
+                color: purple;
+                font-size: 25px;
+            }
+            h3{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p{
+                font-family: 'Times New Roman', Times, serif;
+                color: grey;
+            }
+        }
+
+
+    }
+}
+@media only screen and (max-width: 992px) {
+    .sf{
+        .phone{
+            width: 100%;
+          }
+          .texts{
+            width: 100%;
+          }
+    }
+ 
+   }

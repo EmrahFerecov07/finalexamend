@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    li{
+        color: white;
+        margin-left: 150px;
+    }
+ 
+    img{
+        width: 400px;
+        height: 500px;
+
+    }
+
+   
+}
+button{
+    padding: 10px 20px;
+
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 120px;
+    border-radius: 50px;
+}
+button:hover{
+   
+    background-color: gray;
+}
+

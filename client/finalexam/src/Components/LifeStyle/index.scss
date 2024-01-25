@@ -1,0 +1,39 @@
+.ls{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+
+    background-color: black;
+    .text{
+       padding-top: 150px;
+        width: 50%;
+      
+        
+    }
+    h1{
+        color: white;
+        font-size: 100px;
+    }
+    h4{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    p{
+        color: white;
+        color: gray;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+   .ls{
+   .text{
+    width: 100%;
+} 
+.watch{
+    width: 100%;
+}
+   }
+  }
